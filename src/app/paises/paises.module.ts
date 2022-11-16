@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+//Modulos de terceros
+
 import { PorPaisComponent } from './pages/por-pais/por-pais.component';
 import { PorRegionComponent } from './pages/por-region/por-region.component';
 import { PorCapitalComponent } from './pages/por-capital/por-capital.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
-
+import { InputbarComponent } from './components/inputbar/inputbar.component';
+import { TabledataComponent } from './components/tabledata/tabledata.component';
 
 
 @NgModule({
@@ -12,16 +17,20 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
     PorPaisComponent,
     PorRegionComponent,
     PorCapitalComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    InputbarComponent,
+    TabledataComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     PorPaisComponent,
     PorRegionComponent,
     PorCapitalComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    
   ]
 })
 export class PaisesModule { }

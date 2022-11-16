@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PorCapitalComponent implements OnInit {
 
+  termino!: string;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  getTermino(termino: string):void {
+    this.termino = termino;
+    alert("El termino recibido es: " + this.termino);
+  }
+
+  modifyTermino(termino: string): void {
+    this.termino = termino;
+    console.info("El termino ha cambiado a: ", this.termino);
+  }
 }

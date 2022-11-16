@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PorRegionComponent implements OnInit {
 
+  termino!:string;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  getTermino(termino: string):void {
+    this.termino = termino;
+    alert("El termino recibido es: " + this.termino);
+  }
 }

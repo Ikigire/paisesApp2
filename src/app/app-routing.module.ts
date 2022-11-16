@@ -7,6 +7,11 @@ import { VerPaisComponent } from './paises/pages/ver-pais/ver-pais.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'paises/pais',
+    pathMatch: 'full'
+  },
+  {
     path: 'paises/pais',
     component: PorPaisComponent
   },
@@ -21,12 +26,15 @@ const routes: Routes = [
   {
     path: 'paises/capital',
     component: PorCapitalComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'paises/region'
   }
-
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingRoutingModule { }
