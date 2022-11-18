@@ -2,7 +2,8 @@
 <hr>
 
 
-<app-inputbar (onEnter)="getTermino( $event )"></app-inputbar>
+<app-inputbar (onEnter)="getTermino( $event )"
+            (onChangeTermino)="modifyTermino( $event )"></app-inputbar>
 <hr>
 
-<app-tabledata></app-tabledata>
+<app-tabledata [paises]="paises"></app-tabledata>

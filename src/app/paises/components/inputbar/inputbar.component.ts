@@ -16,7 +16,7 @@ export class InputbarComponent implements OnInit {
   debouncer: Subject<string>;
 
   constructor() { 
-    this.termino = "Yael";
+    this.termino = "";
     this.onEnter = new EventEmitter<string>();
     this.onChangeTermino = new EventEmitter<string>();
     this.debouncer = new Subject<string>();

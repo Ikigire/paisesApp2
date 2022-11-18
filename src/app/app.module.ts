@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';import { LoginComponent } from './login/pages/login/login.component';
 import { LoginModule } from './login/login.module';
@@ -16,7 +17,8 @@ import { PaisesModule } from './paises/paises.module';
     LoginModule,
     PaisesModule,
     AppRoutingRoutingModule,
-    SharedModule
+    SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

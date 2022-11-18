@@ -1,0 +1,583 @@
+[
+    {
+        "name": {
+            "common": "Cocos (Keeling) Islands",
+            "official": "Territory of the Cocos (Keeling) Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Territory of the Cocos (Keeling) Islands",
+                    "common": "Cocos (Keeling) Islands"
+                }
+            }
+        },
+        "tld": [
+            ".cc"
+        ],
+        "cca2": "CC",
+        "ccn3": "166",
+        "cca3": "CCK",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "West Island"
+        ],
+        "altSpellings": [
+            "CC",
+            "Keeling Islands",
+            "Cocos Islands"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "إقليم جزر كوكوس",
+                "common": "جزر كوكوس"
+            },
+            "bre": {
+                "official": "Tiriad Inizi Cocos (Keeling)",
+                "common": "Inizi Cocos (Keeling)"
+            },
+            "ces": {
+                "official": "Kokosové ostrovy",
+                "common": "Kokosové ostrovy"
+            },
+            "cym": {
+                "official": "Tiriogaeth yr Ynysoedd Cocos (Keeling)",
+                "common": "Ynysoedd Cocos"
+            },
+            "deu": {
+                "official": "Gebiet der Kokos- (Keeling-) Inseln",
+                "common": "Kokosinseln"
+            },
+            "est": {
+                "official": "Kookossaarte ala",
+                "common": "Kookossaared"
+            },
+            "fin": {
+                "official": "Kookossaaret",
+                "common": "Kookossaaret"
+            },
+            "fra": {
+                "official": "Territoire des îles Cocos (Keeling)",
+                "common": "Îles Cocos"
+            },
+            "hrv": {
+                "official": "Teritoriju Kokosovi (Keeling) Islands",
+                "common": "Kokosovi Otoci"
+            },
+            "hun": {
+                "official": "Kókusz-szigetek",
+                "common": "Kókusz-szigetek"
+            },
+            "ita": {
+                "official": "Territorio della (Keeling) Isole Cocos",
+                "common": "Isole Cocos e Keeling"
+            },
+            "jpn": {
+                "official": "ココス諸島の領土",
+                "common": "ココス（キーリング）諸島"
+            },
+            "kor": {
+                "official": "코코스 제도",
+                "common": "코코스 제도"
+            },
+            "nld": {
+                "official": "Grondgebied van de Eilanden Cocos (Keeling )",
+                "common": "Cocoseilanden"
+            },
+            "per": {
+                "official": "جزایر کوکوس",
+                "common": "جزایر کوکوس"
+            },
+            "pol": {
+                "official": "Wyspy Kokosowe",
+                "common": "Wyspy Kokosowe"
+            },
+            "por": {
+                "official": "Território dos Cocos (Keeling)",
+                "common": "Ilhas Cocos (Keeling)"
+            },
+            "rus": {
+                "official": "Территория Кокосовые (Килинг) острова",
+                "common": "Кокосовые острова"
+            },
+            "slk": {
+                "official": "Kokosové ostrovy",
+                "common": "Kokosové ostrovy"
+            },
+            "spa": {
+                "official": "Territorio de los (Keeling) Islas Cocos",
+                "common": "Islas Cocos o Islas Keeling"
+            },
+            "swe": {
+                "official": "Kokosöarna",
+                "common": "Kokosöarna"
+            },
+            "tur": {
+                "official": "Cocos (Keeling) Adaları",
+                "common": "Cocos (Keeling) Adaları"
+            },
+            "urd": {
+                "official": "جزائر (کیلنگ) کوکوس",
+                "common": "جزائر کوکوس"
+            },
+            "zho": {
+                "official": "科科斯",
+                "common": "科科斯"
+            }
+        },
+        "latlng": [
+            12.1642,
+            96.871
+        ],
+        "landlocked": false,
+        "area": 14,
+        "demonyms": {
+            "eng": {
+                "f": "Cocos Islander",
+                "m": "Cocos Islander"
+            }
+        },
+        "flag": "🇨🇨",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/82636"
+        },
+        "population": 544,
+        "car": {
+            "signs": [
+                "AUS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+06:30"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cc.png",
+            "svg": "https://flagcdn.com/cc.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -12.17,
+                96.83
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Costa Rica",
+            "official": "Republic of Costa Rica",
+            "nativeName": {
+                "spa": {
+                    "official": "República de Costa Rica",
+                    "common": "Costa Rica"
+                }
+            }
+        },
+        "tld": [
+            ".cr"
+        ],
+        "cca2": "CR",
+        "ccn3": "188",
+        "cca3": "CRI",
+        "cioc": "CRC",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "CRC": {
+                "name": "Costa Rican colón",
+                "symbol": "₡"
+            }
+        },
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "06"
+            ]
+        },
+        "capital": [
+            "San José"
+        ],
+        "altSpellings": [
+            "CR",
+            "Republic of Costa Rica",
+            "República de Costa Rica"
+        ],
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": {
+            "spa": "Spanish"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية كوستاريكا",
+                "common": "كوستاريكا"
+            },
+            "bre": {
+                "official": "Republik Costa Rica",
+                "common": "Costa Rica"
+            },
+            "ces": {
+                "official": "Kostarická republika",
+                "common": "Kostarika"
+            },
+            "cym": {
+                "official": "Gweriniaeth Costa Rica",
+                "common": "Costa Rica"
+            },
+            "deu": {
+                "official": "Republik Costa Rica",
+                "common": "Costa Rica"
+            },
+            "est": {
+                "official": "Costa Rica Vabariik",
+                "common": "Costa Rica"
+            },
+            "fin": {
+                "official": "Costa Rican tasavalta",
+                "common": "Costa Rica"
+            },
+            "fra": {
+                "official": "République du Costa Rica",
+                "common": "Costa Rica"
+            },
+            "hrv": {
+                "official": "Republika Kostarika",
+                "common": "Kostarika"
+            },
+            "hun": {
+                "official": "Costa Rica-i Köztársaság",
+                "common": "Costa Rica"
+            },
+            "ita": {
+                "official": "Repubblica di Costa Rica",
+                "common": "Costa Rica"
+            },
+            "jpn": {
+                "official": "コスタリカ共和国",
+                "common": "コスタリカ"
+            },
+            "kor": {
+                "official": "코스타리카 공화국",
+                "common": "코스타리카"
+            },
+            "nld": {
+                "official": "Republiek Costa Rica",
+                "common": "Costa Rica"
+            },
+            "per": {
+                "official": "جمهوری کاستاریکا",
+                "common": "کاستاریکا"
+            },
+            "pol": {
+                "official": "Republika Kostaryki",
+                "common": "Kostaryka"
+            },
+            "por": {
+                "official": "República da Costa Rica",
+                "common": "Costa Rica"
+            },
+            "rus": {
+                "official": "Республика Коста-Рика",
+                "common": "Коста-Рика"
+            },
+            "slk": {
+                "official": "Kostarická republika",
+                "common": "Kostarika"
+            },
+            "spa": {
+                "official": "República de Costa Rica",
+                "common": "Costa Rica"
+            },
+            "swe": {
+                "official": "Republiken Costa Rica",
+                "common": "Costa Rica"
+            },
+            "tur": {
+                "official": "Kosta Rika Cumhuriyeti",
+                "common": "Kosta Rika"
+            },
+            "urd": {
+                "official": "جمہوریہ کوسٹاریکا",
+                "common": "کوسٹاریکا"
+            },
+            "zho": {
+                "official": "哥斯达黎加共和国",
+                "common": "哥斯达黎加"
+            }
+        },
+        "latlng": [
+            10,
+            -84
+        ],
+        "landlocked": false,
+        "borders": [
+            "NIC",
+            "PAN"
+        ],
+        "area": 51100,
+        "demonyms": {
+            "eng": {
+                "f": "Costa Rican",
+                "m": "Costa Rican"
+            },
+            "fra": {
+                "f": "Costaricaine",
+                "m": "Costaricain"
+            }
+        },
+        "flag": "🇨🇷",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/RFiwytjvNrpfKN7k6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/287667"
+        },
+        "population": 5094114,
+        "gini": {
+            "2019": 48.2
+        },
+        "fifa": "CRC",
+        "car": {
+            "signs": [
+                "CR"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-06:00"
+        ],
+        "continents": [
+            "North America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cr.png",
+            "svg": "https://flagcdn.com/cr.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                9.93,
+                -84.09
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Turks and Caicos Islands",
+            "official": "Turks and Caicos Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Turks and Caicos Islands",
+                    "common": "Turks and Caicos Islands"
+                }
+            }
+        },
+        "tld": [
+            ".tc"
+        ],
+        "cca2": "TC",
+        "ccn3": "796",
+        "cca3": "TCA",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "649"
+            ]
+        },
+        "capital": [
+            "Cockburn Town"
+        ],
+        "altSpellings": [
+            "TC"
+        ],
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "جزر توركس وكايكوس",
+                "common": "جزر توركس وكايكوس"
+            },
+            "bre": {
+                "official": "Inizi Turks ha Caicos",
+                "common": "Inizi Turks ha Caicos"
+            },
+            "ces": {
+                "official": "Turks a Caicos",
+                "common": "Turks a Caicos"
+            },
+            "cym": {
+                "official": "Turks and Caicos Islands",
+                "common": "Turks and Caicos Islands"
+            },
+            "deu": {
+                "official": "Turks und Caicos Inseln",
+                "common": "Turks-und Caicosinseln"
+            },
+            "est": {
+                "official": "Turksi ja Caicose saared",
+                "common": "Turks ja Caicos"
+            },
+            "fin": {
+                "official": "Turks-ja Caicossaaret",
+                "common": "Turks-ja Caicossaaret"
+            },
+            "fra": {
+                "official": "Îles Turques et Caïques",
+                "common": "Îles Turques-et-Caïques"
+            },
+            "hrv": {
+                "official": "Otoci Turks i Caicos",
+                "common": "Otoci Turks i Caicos"
+            },
+            "hun": {
+                "official": "Turks- és Caicos-szigetek",
+                "common": "Turks- és Caicos-szigetek"
+            },
+            "ita": {
+                "official": "Turks e Caicos",
+                "common": "Isole Turks e Caicos"
+            },
+            "jpn": {
+                "official": "タークス·カイコス諸島",
+                "common": "タークス・カイコス諸島"
+            },
+            "kor": {
+                "official": "터크스 케이커스 제도",
+                "common": "터크스 케이커스 제도"
+            },
+            "nld": {
+                "official": "Turks-en Caicoseilanden",
+                "common": "Turks-en Caicoseilanden"
+            },
+            "per": {
+                "official": "جزایر تورکس و کایکوس",
+                "common": "جزایر تورکس و کایکوس"
+            },
+            "pol": {
+                "official": "Turks i Caicos",
+                "common": "Turks i Caicos"
+            },
+            "por": {
+                "official": "Ilhas Turks e Caicos",
+                "common": "Ilhas Turks e Caicos"
+            },
+            "rus": {
+                "official": "Теркс и Кайкос острова",
+                "common": "Теркс и Кайкос"
+            },
+            "slk": {
+                "official": "Ostrovy Turks a Caicos",
+                "common": "Turks a Caicos"
+            },
+            "spa": {
+                "official": "Islas Turcas y Caicos",
+                "common": "Islas Turks y Caicos"
+            },
+            "swe": {
+                "official": "Turks- och Caicosöarna",
+                "common": "Turks- och Caicosöarna"
+            },
+            "tur": {
+                "official": "Turks ve Caicos Adaları",
+                "common": "Turks ve Caicos Adaları"
+            },
+            "urd": {
+                "official": "جزائر کیکس و ترکیہ",
+                "common": "جزائر کیکس و ترکیہ"
+            },
+            "zho": {
+                "official": "特克斯和凯科斯群岛",
+                "common": "特克斯和凯科斯群岛"
+            }
+        },
+        "latlng": [
+            21.75,
+            -71.58333333
+        ],
+        "landlocked": false,
+        "area": 948,
+        "demonyms": {
+            "eng": {
+                "f": "Turks and Caicos Islander",
+                "m": "Turks and Caicos Islander"
+            }
+        },
+        "flag": "🇹🇨",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/R8VUDQfwZiFtvmyn8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/547479"
+        },
+        "population": 38718,
+        "fifa": "TCA",
+        "car": {
+            "signs": [
+                "GB"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "continents": [
+            "North America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/tc.png",
+            "svg": "https://flagcdn.com/tc.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                21.46,
+                -71.14
+            ]
+        },
+        "postalCode": {
+            "format": "TKCA 1ZZ",
+            "regex": "^(TKCA 1ZZ)$"
+        }
+    }
+]

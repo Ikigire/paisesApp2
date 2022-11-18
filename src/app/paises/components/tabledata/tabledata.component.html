@@ -7,12 +7,16 @@
         <th></th>
     </thead>
     <tbody>
-        <td>1</td>
-        <td>México</td>
-        <td>México</td>
-        <td>7000000</td>
-        <td>
-            <a href="localhost:4200/paises/pais/mx">ver mas...</a>
-        </td>
+        <tr *ngFor="let pais of paises; let i = index">
+            <td>{{i+1}}</td>
+            <td>
+                <img class="small-flag" [src]="pais.flags.png" alt="">
+            </td>
+            <td>{{ pais.name.common + "/ " + pais.name.official }}</td>
+            <td> {{ pais.population | number}} </td>
+            <td>
+                <a href="localhost:4200/paises/pais/mx">ver mas...</a>
+            </td>
+        </tr>
     </tbody>
 </table>
