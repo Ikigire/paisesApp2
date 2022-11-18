@@ -18,14 +18,14 @@ export class PorPaisComponent implements OnInit {
   }
 
   getTermino(termino: string):void {
-    /*this.paisesService.getPaisesByName(termino)
-    .subscribe(paises => {
-      this.paises = paises;
-      //console.info("Se ejecutó el código de subscripción");
-    },
-    error => {
-      this.paises = [];
-    });*/
+    // this.paisesService.getPaisesByName(termino)
+    // .subscribe(paises => {
+    //   this.paises = paises;
+    //   //console.info("Se ejecutó el código de subscripción");
+    // },
+    // error => {
+    //   this.paises = [];
+    // });
     this.paisesService.getPaisesByName(termino)
     .subscribe(paises => {
       this.paises = paises;
