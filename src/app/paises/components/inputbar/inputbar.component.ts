@@ -24,7 +24,7 @@ export class InputbarComponent implements OnInit {
 
   ngOnInit(): void {
     this.debouncer
-    .pipe(debounceTime(1000))
+    .pipe(debounceTime(200))
     .subscribe((valor) => {
       this.onChangeTermino.emit(valor);
     });

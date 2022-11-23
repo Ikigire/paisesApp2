@@ -7,4 +7,6 @@
 </app-inputbar>
 <hr>
 
-<app-tabledata></app-tabledata>
+<app-alerta *ngIf="hayError" [mensaje]="'No se encontraron resultados con el termino: ' + termino"></app-alerta>
+
+<app-tabledata *ngIf="hayResultados" [paises]="paises"></app-tabledata>

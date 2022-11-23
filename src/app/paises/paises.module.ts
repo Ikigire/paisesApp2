@@ -10,6 +10,7 @@ import { PorCapitalComponent } from './pages/por-capital/por-capital.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { InputbarComponent } from './components/inputbar/inputbar.component';
 import { TabledataComponent } from './components/tabledata/tabledata.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TabledataComponent } from './components/tabledata/tabledata.component';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   exports: [
     PorPaisComponent,

@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { RouterModule } from '@angular/router';
+import { AlertaComponent } from './alerta/alerta.component';
 
 
 
 @NgModule({
   declarations: [
     ToolbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    AlertaComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     ToolbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    AlertaComponent
   ]
 })
 export class SharedModule { }
