@@ -11,6 +11,8 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { InputbarComponent } from './components/inputbar/inputbar.component';
 import { TabledataComponent } from './components/tabledata/tabledata.component';
 import { SharedModule } from '../shared/shared.module';
+import { RouterModule } from '@angular/router';
+import { MainPaisesComponent } from './pages/main-paises/main-paises.component';
 
 
 @NgModule({
@@ -20,12 +22,14 @@ import { SharedModule } from '../shared/shared.module';
     PorCapitalComponent,
     VerPaisComponent,
     InputbarComponent,
-    TabledataComponent
+    TabledataComponent,
+    MainPaisesComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    RouterModule
   ],
   exports: [
     PorPaisComponent,

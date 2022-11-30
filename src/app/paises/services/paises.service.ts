@@ -32,4 +32,10 @@ export class PaisesService {
         return this.http.get<Country[]>(endpoint)
         .pipe( catchError( () => of( [] ) ) );
     }
+
+    getPaisById(id: string): Observable<Country[]> {
+        const endpoint: string = this.url + "/alpha/" + id;
+        return this.http.get<Country[]>(endpoint)
+        .pipe( catchError( () => of( [] ) ) );
+    }
 }

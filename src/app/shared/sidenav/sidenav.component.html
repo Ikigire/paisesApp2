@@ -2,18 +2,21 @@
 <hr>
 <ul class="list-group">
     <li class="list-group-item cursor-pointer" 
-    routerLink="paises/pais"
+    routerLink="/paises/pais"
     routerLinkActive="active">
         Por País
     </li>
     <li class="list-group-item cursor-pointer"
-    routerLink="paises/region"
+    routerLink="/paises/region"
     routerLinkActive="active">
         Por Region
     </li>
     <li class="list-group-item cursor-pointer"
-    routerLink="paises/capital"
+    routerLink="/paises/capital"
     routerLinkActive="active">
         Pos Capital
+    </li>
+    <li class="list-group-item cursor-pointer" (click)="logout()">
+        LogOut
     </li>
 </ul>

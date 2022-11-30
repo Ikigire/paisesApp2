@@ -1,1 +1,27 @@
-<h2>Saludos desde el componenete Login</h2>
+<div class="container row justify-content-center">
+    <div class="col-auto p-5 text-center border border-3 bg-light text-dark">
+        <form autocomplete="off" (ngSubmit)="login()">
+            <div class="form-floating mb-3">
+                <input type="email" name="email" id="email"
+                        required
+                        class="form-control"
+                        [(ngModel)]="usuario.email"
+                        placeholder="ejemplo@ejemplo.com">
+                        <label for="email">Usuario</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" name="pass" id="pass"
+                        required
+                        class="form-control"
+                        [(ngModel)]="usuario.password"
+                        placeholder="Contraseña">
+                <label for="pass">Contraseña</label>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+            </div>
+        </form>
+    </div>
+</div>
