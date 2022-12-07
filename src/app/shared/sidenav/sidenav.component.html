@@ -1,4 +1,4 @@
-<h2>Busquedas</h2>
+<!-- <h2>Busquedas</h2>
 <hr>
 <ul class="list-group">
     <li class="list-group-item cursor-pointer" 
@@ -19,4 +19,20 @@
     <li class="list-group-item cursor-pointer" (click)="logout()">
         LogOut
     </li>
-</ul>
+</ul> -->
+<mat-toolbar color="primary">
+    <span>Búsquedas</span>
+    <button mat-icon-button (click)="toggle()">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-toolbar>
+<mat-selection-list [multiple]="false">
+    <mat-list-item>Por País</mat-list-item>
+    <mat-list-item>Por Región</mat-list-item>
+    <mat-list-item>Por Capital</mat-list-item>
+</mat-selection-list>
+<div class="text-center">
+    <button mat-icon-button (click)="logout()">
+        <mat-icon>logout</mat-icon>
+    </button>
+</div>

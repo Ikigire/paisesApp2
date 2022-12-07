@@ -4,6 +4,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { RouterModule } from '@angular/router';
 import { AlertaComponent } from './alerta/alerta.component';
+import { MaterialModule } from '../Material/material.module';
 
 
 
@@ -15,7 +16,8 @@ import { AlertaComponent } from './alerta/alerta.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MaterialModule
   ],
   exports: [
     ToolbarComponent,

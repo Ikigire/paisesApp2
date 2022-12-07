@@ -13,6 +13,7 @@ import { TabledataComponent } from './components/tabledata/tabledata.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { MainPaisesComponent } from './pages/main-paises/main-paises.component';
+import { MaterialModule } from '../Material/material.module';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MainPaisesComponent } from './pages/main-paises/main-paises.component';
     CommonModule,
     FormsModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    MaterialModule
   ],
   exports: [
     PorPaisComponent,

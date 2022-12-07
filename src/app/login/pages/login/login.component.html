@@ -1,26 +1,51 @@
 <div class="container row justify-content-center">
     <div class="col-auto p-5 text-center border border-3 bg-light text-dark">
         <form autocomplete="off" (ngSubmit)="login()">
-            <div class="form-floating mb-3">
+            <!-- <div class="form-floating mb-3">
                 <input type="email" name="email" id="email"
                         required
                         class="form-control"
                         [(ngModel)]="usuario.email"
                         placeholder="ejemplo@ejemplo.com">
                         <label for="email">Usuario</label>
-            </div>
+            </div> -->
+            <mat-form-field class="">
+                <mat-label>Email</mat-label>
+                <input type="email" matInput [formControl]="emailValidator" placeholder="Ex. pat@example.com">
+                <mat-error *ngIf="emailValidator.hasError('email') && !emailValidator.hasError('required')">
+                    Please enter a valid email address
+                </mat-error>
+                <mat-error *ngIf="emailValidator.hasError('required')">
+                    Email is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
 
-            <div class="form-floating mb-3">
-                <input type="password" name="pass" id="pass"
-                        required
-                        class="form-control"
-                        [(ngModel)]="usuario.password"
-                        placeholder="Contraseña">
+            <!-- <div class="form-floating mb-3">
+                <input type="password" name="pass" id="pass" required class="form-control"
+                    [(ngModel)]="usuario.password" placeholder="Contraseña">
                 <label for="pass">Contraseña</label>
+            </div> -->
+            <mat-divider></mat-divider>
+            <mat-form-field class="">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput [formControl]="passwordValidator">
+                <mat-error *ngIf="passwordValidator.hasError('minLength') && !passwordValidator.hasError('required')">
+                    La contraseña debe tener por lo menos 5 caracteres
+                </mat-error>
+                <mat-error *ngIf="passwordValidator.hasError('required')">
+                    Password is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    No estás registrado? Registrate <a routerLink="/login/register">aqui</a>
+                </div>
             </div>
 
             <div class="text-center">
-                <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+                <button mat-raised-button color="primary" type="submit" [disabled]="!emailValidator.valid || !passwordValidator.valid">Primary</button>
+                <!-- <button class="btn btn-primary" type="submit">Iniciar sesión</button> -->
             </div>
         </form>
     </div>

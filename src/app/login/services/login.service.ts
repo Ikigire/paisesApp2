@@ -24,7 +24,13 @@ export class LoginService {
             this.usuarios.push({email: "yael@gmail.com", password: "12345", userName: "Yael"});
         
     }
-
+    /**
+     * método para hacer la validación de un usuario 
+     * para permitir hacer login de forma exitosa
+     * 
+     * @param user Datos del usuario a verificar
+     * @returns Observable con la información del servidor
+     */
     verifyUser(user: User): Observable<User>{
         for(let pos:number = 0; pos<this.usuarios.length; pos++){
             let currentUser = this.usuarios[pos];
@@ -44,7 +50,22 @@ export class LoginService {
 
     registerNewUser(user: User): boolean {
         try {
-            
+            // this.usuarios.forEach(usuario => {
+            //     if (usuario.email == user.email)
+            //     return false;
+            // });
+
+            // for (const usuario in this.usuarios) {
+                // if (usuario.email == user.email)
+                // return false;
+            // }
+
+            for (let index = 0; index < this.usuarios.length; index++) {
+                const element = this.usuarios[index];
+                if (element.email == user.email) {
+                    return false;
+                }
+            }
             this.usuarios.push(user)
             localStorage.setItem('usuarios', JSON.stringify(this.usuarios));
         } catch (error) {
