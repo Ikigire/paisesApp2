@@ -10,12 +10,17 @@ import { MatSidenav } from '@angular/material/sidenav'
 })
 export class SidenavComponent implements OnInit {
 
+  path: string;
+
+  //Inputs
   @Input('sidenav') sidenav!: MatSidenav;
 
   constructor(
     private loginService: LoginService,
     private router:Router
-  ) { }
+  ) { 
+    this.path = 'region';
+  }
 
   ngOnInit(): void {
   }
@@ -27,6 +32,11 @@ export class SidenavComponent implements OnInit {
 
   toggle():void {
     this.sidenav.toggle();
+  }
+
+  navigateTo(path:string): void{
+    this.path = path;
+    this.router.navigateByUrl("/paises/" + this.path);
   }
 
 }

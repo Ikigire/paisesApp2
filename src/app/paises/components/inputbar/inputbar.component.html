@@ -1,8 +1,10 @@
 <form autocomplete="off" (ngSubmit)="submit()">
-    <input type="text" 
+    <input matInput
+        type="text" 
         class="form-control" 
         id="abc" 
         name="busqueda"
         [(ngModel)]="termino"
         (input)="onChangeText()">
+    
 </form>

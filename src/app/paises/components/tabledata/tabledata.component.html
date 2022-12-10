@@ -16,7 +16,10 @@
                 <td>{{ pais.name.common + "/ " + pais.name.official }}</td>
                 <td> {{ pais.population | number}} </td>
                 <td>
-                    <a [routerLink]="['/paises/pais/' + pais.cca2]">ver mas...</a>
+                    <button mat-icon-button color="blue">
+                        <mat-icon [routerLink]="'/paises/pais/' + pais.cca2">visibility</mat-icon>
+                    </button>
+                    <!-- <a [routerLink]="['/paises/pais/' + pais.cca2]">ver mas...</a> -->
                 </td>
             </tr>
         </tbody>

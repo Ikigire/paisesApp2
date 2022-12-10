@@ -27,9 +27,15 @@
     </button>
 </mat-toolbar>
 <mat-selection-list [multiple]="false">
-    <mat-list-item>Por País</mat-list-item>
-    <mat-list-item>Por Región</mat-list-item>
-    <mat-list-item>Por Capital</mat-list-item>
+    <mat-list-item>
+        <button mat-raised-button class="w-100 h-100" [color]="path == 'pais'? 'primary' : ''" (click)="navigateTo('pais')">Por País</button>
+    </mat-list-item>
+    <mat-list-item>
+        <button mat-raised-button class="w-100 h-100" [color]="path == 'region'? 'primary' : ''" (click)="navigateTo('region')">Por Region</button>
+    </mat-list-item>
+    <mat-list-item>
+        <button mat-raised-button class="w-100 h-100" [color]="path == 'capital'? 'primary' : ''" (click)="navigateTo('capital')">Por Capital</button>
+    </mat-list-item>
 </mat-selection-list>
 <div class="text-center">
     <button mat-icon-button (click)="logout()">
